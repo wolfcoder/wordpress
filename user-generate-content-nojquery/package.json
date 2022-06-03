@@ -1,0 +1,15 @@
+{
+  "name": "wplain",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@wordpress/scripts": "*",
+    "axios": "^0.27.2"
+  }
+}
